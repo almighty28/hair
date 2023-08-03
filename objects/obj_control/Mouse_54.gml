@@ -1,0 +1,1 @@
+array_push(hpos,[mouse_x,mouse_y])
