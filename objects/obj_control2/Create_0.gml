@@ -3,3 +3,14 @@ hpos =[[436,378],[573,375],[434,375],[574,371],[431,371],[575,366],[428,365],[57
 
 event_user(0)
 
+hairs = [];
+
+for (var i = 0;i<array_length(hpos);i++) {
+	for(var j = 0;j<10;j++) {
+		if j == 0 hairs[i][j] = hpos[i];
+		else hairs[i][j] = [hairs[i][j-1][0],hairs[i][j-1][1] - 20];
+	
+	}
+
+}
+
