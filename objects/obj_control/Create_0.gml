@@ -3,7 +3,7 @@ vertex_format_add_position()
 global.h_form = vertex_format_end()
 global.h_buff = vertex_create_buffer()
 vertex_begin(global.h_buff,global.h_form)
-for (var i=0; i<100; i++) {
+for (var i=0; i<200; i++) {
 	vertex_position(global.h_buff, i, 0)
 	vertex_position(global.h_buff, i, 1)
 }

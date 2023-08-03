@@ -10,5 +10,5 @@
 //	shader_reset()
 //}
 	
-for (var i=0; i<array_length(points_x); i++)
-	draw_circle_color(points_x[i],points_y[i],2,c_aqua,c_aqua,false)
+//for (var i=0; i<array_length(points_x); i++)
+//	draw_circle_color(points_x[i],points_y[i],2,c_aqua,c_aqua,false)
