@@ -12,7 +12,7 @@ u_tex_pos = shader_get_uniform(shd_vertex_texture,"u_vTex_pos")
 u_point_x_arr = shader_get_uniform(shd_vertex_texture,"u_fPoints_x")
 u_point_y_arr = shader_get_uniform(shd_vertex_texture,"u_fPoints_y")
 
-strt_scale = 30
+strt_scale = 20
 p_scale = strt_scale
 
 points_x = []
