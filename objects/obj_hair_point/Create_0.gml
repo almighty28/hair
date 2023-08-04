@@ -6,11 +6,11 @@ h_arr_tex_pos = sprite_get_uvs(spr_00,0)
 array_resize(h_arr_tex_pos,4)
 h_arr_tex_pos[3] = (h_arr_tex_pos[3]-h_arr_tex_pos[1])/3
 
-u_width = shader_get_uniform(shd_vertex_texture,"u_fWidth")
-u_length = shader_get_uniform(shd_vertex_texture,"u_fLength")
-u_tex_pos = shader_get_uniform(shd_vertex_texture,"u_vTex_pos")
-u_point_x_arr = shader_get_uniform(shd_vertex_texture,"u_fPoints_x")
-u_point_y_arr = shader_get_uniform(shd_vertex_texture,"u_fPoints_y")
+u_width = shader_get_uniform(shd_vertex_texture2,"u_fWidth")
+u_length = shader_get_uniform(shd_vertex_texture2,"u_fLength")
+u_tex_pos = shader_get_uniform(shd_vertex_texture2,"u_vTex_pos")
+u_point_x_arr = shader_get_uniform(shd_vertex_texture2,"u_fPoints_x")
+u_point_y_arr = shader_get_uniform(shd_vertex_texture2,"u_fPoints_y")
 
 strt_scale = 20
 p_scale = strt_scale
