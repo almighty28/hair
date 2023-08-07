@@ -12,10 +12,12 @@
     {"id":{"name":"spr_3","path":"sprites/spr_3/spr_3.yy",},"order":4,},
     {"id":{"name":"obj_hair_point","path":"objects/obj_hair_point/obj_hair_point.yy",},"order":1,},
     {"id":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},"order":5,},
+    {"id":{"name":"obj_hairs","path":"objects/obj_hairs/obj_hairs.yy",},"order":6,},
     {"id":{"name":"spr_hair_mask","path":"sprites/spr_hair_mask/spr_hair_mask.yy",},"order":7,},
     {"id":{"name":"scr_line_cross","path":"scripts/scr_line_cross/scr_line_cross.yy",},"order":0,},
     {"id":{"name":"obj_restart","path":"objects/obj_restart/obj_restart.yy",},"order":4,},
     {"id":{"name":"spr_head","path":"sprites/spr_head/spr_head.yy",},"order":5,},
+    {"id":{"name":"Shader3","path":"shaders/Shader3/Shader3.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
