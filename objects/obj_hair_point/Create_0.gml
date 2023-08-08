@@ -34,39 +34,39 @@ pr_y = y
 
 
 
-function hair_update(num) {
-	var in, dist, scl, dx, dy
+//function hair_update(num) {
+//	var in, dist, scl, dx, dy
 	
-	for (var i=num; i>0; i--) { //тянем на себя все точки с рута
-		in = i-1
-		dx = points_x[in]-points_x[i]
-		dy = points_y[in]-points_y[i]
-		dist = point_distance(0,0,dx,dy)
-		scl = p_scale/dist
-		points_x[in] = points_x[i]+dx*scl
-		points_y[in] = points_y[i]+dy*scl
-	}
-	if points_x[0]!=root_x || points_y[0]!=root_y { //тянем от рута точки обратно
-		points_x[0]=root_x
-		points_y[0]=root_y
-		for (var i=0; i<num; i++) {
-			in = i+1
-			dx = points_x[in]-points_x[i]
-			dy = points_y[in]-points_y[i]
-			dist = point_distance(0,0,dx,dy)
-			scl = p_scale/dist
-			points_x[in] = points_x[i]+dx*scl
-			points_y[in] = points_y[i]+dy*scl
-		}	
-	}
-	var a_l = array_length(points_x)-1 //тянем на себя все точки с конца
-	for (var i=num; i<a_l; i++) {
-		in = i+1
-		dx = points_x[in]-points_x[i]
-		dy = points_y[in]-points_y[i]
-		dist = point_distance(0,0,dx,dy)
-		scl = p_scale/dist
-		points_x[in] = points_x[i]+dx*scl
-		points_y[in] = points_y[i]+dy*scl
-	}
-}
+//	for (var i=num; i>0; i--) { //тянем на себя все точки с рута
+//		in = i-1
+//		dx = points_x[in]-points_x[i]
+//		dy = points_y[in]-points_y[i]
+//		dist = point_distance(0,0,dx,dy)
+//		scl = p_scale/dist
+//		points_x[in] = points_x[i]+dx*scl
+//		points_y[in] = points_y[i]+dy*scl
+//	}
+//	if points_x[0]!=root_x || points_y[0]!=root_y { //тянем от рута точки обратно
+//		points_x[0]=root_x
+//		points_y[0]=root_y
+//		for (var i=0; i<num; i++) {
+//			in = i+1
+//			dx = points_x[in]-points_x[i]
+//			dy = points_y[in]-points_y[i]
+//			dist = point_distance(0,0,dx,dy)
+//			scl = p_scale/dist
+//			points_x[in] = points_x[i]+dx*scl
+//			points_y[in] = points_y[i]+dy*scl
+//		}	
+//	}
+//	var a_l = array_length(points_x)-1 //тянем на себя все точки с конца
+//	for (var i=num; i<a_l; i++) {
+//		in = i+1
+//		dx = points_x[in]-points_x[i]
+//		dy = points_y[in]-points_y[i]
+//		dist = point_distance(0,0,dx,dy)
+//		scl = p_scale/dist
+//		points_x[in] = points_x[i]+dx*scl
+//		points_y[in] = points_y[i]+dy*scl
+//	}
+//}

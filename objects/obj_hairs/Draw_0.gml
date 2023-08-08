@@ -2,7 +2,7 @@ surface_set_target(hair_surf)
 draw_clear_alpha(c_white,0)
 
 var dep = 0;
-var wdth = 5
+var wdth = strt_scale/4
 
 for(var dep = 0;dep<array_length(hairs_arr)-1;dep++) {
 	for (var k = 0;k<array_length(hairs_arr[dep]);k++) {
